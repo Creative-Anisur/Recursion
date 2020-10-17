@@ -5,7 +5,7 @@
 Fact(n): Factorial	
 1. if n ≤ 1		
 2. return n // naive recursion		
-3. return n * Fact(n-1)
+3. return n*Fact(n-1)
 ```
 ```mardown
 Fact(n, acc): Accumulating Factorial

@@ -5,7 +5,7 @@
 Fact(n): Factorial	
 1.  if n ≤ 1		
 2.  return n // naive recursion		
-3.  return n*Fact(n-1)
+3.return n*Fact(n-1)
 ```
 ```mardown
 Fact(n, acc): Accumulating Factorial
@@ -17,7 +17,7 @@ Fact(n, acc): Accumulating Factorial
 Fact(n, acc): Tail Call Factorial
 1.  if n ≤ 1		
 2.  return acc // tail call optimization!
-3.  return Fact(n-1, acc*n)
+3.return Fact(n-1, acc*n)
 ```
 [Recursive Addition:](http://rosulek.github.io/vamonos/demos/addition.html) Click for Demo
 

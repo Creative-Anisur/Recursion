@@ -29,7 +29,7 @@ Add(x,y):
 4. result = 1 + Add(x - 1, y)		
 5. return result
 ```
-[Karatsuba’s multiplication algorithm](http://rosulek.github.io/vamonos/demos/karatsuba.html) Click for Demo
+[Karatsuba’s multiplication:](http://rosulek.github.io/vamonos/demos/karatsuba.html) Click for Demo
 ```markdown
 Karatsuba(x,y):		
 1. if x < 10 or y < 10		
@@ -41,5 +41,5 @@ Karatsuba(x,y):
 7. b = karatsuba(xhigh + xlow, yhigh + ylow)		
 8. c = karatsuba(xlow, ylow)		
 9. result = c*102d + (b-c-a)*10d + a		
-10. return result
+10.return result
 ```

@@ -1,20 +1,20 @@
 ## Recursion
 
-[Three versions of factorial:] Click for Demo (http://rosulek.github.io/vamonos/demos/factorial.html)
+[Three versions of factorial:](http://rosulek.github.io/vamonos/demos/factorial.html) Click for Demo
 ```markdown
-<b>Fact(n):Factorial</b>	
+### Fact(n):Factorial	
 1. if n ≤ 1		
 2. return n // naive recursion		
 3. return n * Fact(n-1)
 ```
 ```mardown
-<b>Fact(n, acc):Accumulating Factorial</b>
+### Fact(n, acc):Accumulating Factorial
 1. if n ≤ 1		
 2. return acc // no tail call optimization		
 3. return Fact(n-1, acc*n)
 ```
 ```markdown
-<b>Fact(n, acc):Tail Call Factorial</b>
+### Fact(n, acc):Tail Call Factorial
 1.if n ≤ 1		
 2. return acc // tail call optimization!
 3. return Fact(n-1, acc*n)
